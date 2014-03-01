@@ -2,6 +2,7 @@
 
 echo Installing Homebrew...
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew update && brew doctor
 
 echo Installing Homebrew-Cask...
 brew install phinze/cask/brew-cask
