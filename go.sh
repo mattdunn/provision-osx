@@ -8,9 +8,6 @@ fi
 echo Installing Homebrew...
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-echo Updating Homebrew...
-brew update
-
 echo Checking Homebrew health...
 brew doctor
 read -p "Press any key to continue or ctrl-z to quit... "
