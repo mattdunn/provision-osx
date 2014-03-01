@@ -2,7 +2,7 @@
 
 if ! has 'brew'; then
   echo "Uninstalling Homebrew..."
-  rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
+  rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup && brew prune
 fi
 
 echo Installing Homebrew...
