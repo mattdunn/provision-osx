@@ -1,6 +1,10 @@
 #!/bin/sh
 
-if ! has 'brew'; then
+has() {
+  type "$1" >/dev/null 2>&1
+}
+
+if has 'brew'; then
   echo "Uninstalling Homebrew..."
   rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup && brew prune
 fi
