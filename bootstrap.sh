@@ -17,7 +17,7 @@ cleanup(){
 
 clone_repo(){
   mkdir -p $GIT_REPO_LOCATION
-  cd !$
+  cd $GIT_REPO_LOCATION
   git clone git@github.com:mattdunn/$GIT_REPO.git .
 }
 
