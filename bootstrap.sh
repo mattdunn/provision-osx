@@ -12,7 +12,7 @@ cleanup(){
   echo "Uninstalling Homebrew..."
   rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup && brew prune
 
-  echo "Removing $GIT_REPO repository..."
+  echo "Removing $GIT_REPO_NAME repository..."
   rm -rf $GIT_REPO_CLONE_LOCATION
 }
 
