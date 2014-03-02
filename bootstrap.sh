@@ -15,11 +15,15 @@ cleanup(){
   rm -rf GIT_REPO_LOCATION
 }
 
+clone_repo(){
+  mkdir -p $GIT_REPO_LOCATION
+  cd !$
+  git clone git@github.com:mattdunn/$GIT_REPO.git .
+}
+
 if has 'brew'; then
   cleanup
 fi
 
-mkdir -p $GIT_REPO_LOCATION
-cd !$
-git clone git@github.com:mattdunn/$GIT_REPO.git .
+clone_repo
 ./provision.sh
