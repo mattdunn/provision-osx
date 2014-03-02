@@ -1,7 +1,8 @@
 #!/bin/sh
 
-GIT_REPO=provision-osx
-GIT_REPO_LOCATION=~/projects/$GIT_REPO
+GIT_REPO_NAME=provision-osx
+GIT_REPO_LOCATION=https://github.com/mattdunn/$GIT_REPO.git
+GIT_REPO_CLONE_LOCATION=~/projects/$GIT_REPO
 
 has() {
   type "$1" >/dev/null 2>&1
@@ -16,9 +17,9 @@ cleanup(){
 }
 
 clone_repo(){
-  mkdir -p $GIT_REPO_LOCATION
-  cd $GIT_REPO_LOCATION
-  git clone git@github.com:mattdunn/$GIT_REPO.git .
+  mkdir -p $GIT_REPO_CLONE_LOCATION
+  cd $GIT_REPO_CLONE_LOCATION
+  git clone $GIT_REPO_LOCATION .
 }
 
 if has 'brew'; then
