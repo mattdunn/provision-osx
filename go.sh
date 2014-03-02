@@ -1,29 +1,25 @@
 #!/bin/sh
 
+GIT_REPO=provision-osx
+GIT_REPO_LOCATION=~/projects/$GIT_REPO
+
 has() {
   type "$1" >/dev/null 2>&1
 }
 
-if has 'brew'; then
+cleanup(){
   echo "Uninstalling Homebrew..."
   rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup && brew prune
+
+  echo "Removing $GIT_REPO repository..."
+  rm -rf GIT_REPO_LOCATION
+}
+
+if has 'brew'; then
+  cleanup
 fi
 
-echo Installing Homebrew...
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-
-echo Updating Homebrew...
-brew update
-
-echo Checking Homebrew health...
-brew doctor
-read -p "Press any key to continue or ctrl-z to quit... "
-
-echo Installing Homebrew-Cask...
-brew install phinze/cask/brew-cask
-
-echo Installing Ansible
-brew install ansible
-
-echo Manual things...
-echo  - Create and upload a new ssh key for GitHub
+mkdir -p $GIT_REPO_LOCATION
+cd !$
+git clone git@github.com:mattdunn/$GIT_REPO.git .
+./provision.sh
