@@ -13,7 +13,7 @@ cleanup(){
   rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup && brew prune
 
   echo "Removing $GIT_REPO repository..."
-  rm -rf GIT_REPO_LOCATION
+  rm -rf $GIT_REPO_CLONE_LOCATION
 }
 
 clone_repo(){
