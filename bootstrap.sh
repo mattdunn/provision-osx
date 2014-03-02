@@ -1,8 +1,8 @@
 #!/bin/sh
 
 GIT_REPO_NAME=provision-osx
-GIT_REPO_LOCATION=https://github.com/mattdunn/$GIT_REPO
-GIT_REPO_CLONE_LOCATION=~/projects/$GIT_REPO
+GIT_REPO_LOCATION=https://github.com/mattdunn/$GIT_REPO_NAME
+GIT_REPO_CLONE_LOCATION=~/projects/$GIT_REPO_NAME
 
 has() {
   type "$1" >/dev/null 2>&1
