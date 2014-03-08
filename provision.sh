@@ -13,13 +13,12 @@ echo ""
 brew doctor
 read -p "Press return to continue or ctrl-z to quit... "
 
-echo "Installing Homebrew-Cask..."
+echo "Installing Homebrew packages..."
 echo ""
-brew install phinze/cask/brew-cask
+brew bundle Brewfile
 
-echo "Installing Ansible"
-echo ""
-brew install ansible
+echo "Installing Homebrew-Cask packages..."
+brew bundle Caskfile
 
 echo "Manual things..."
 echo ""
