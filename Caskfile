@@ -2,3 +2,19 @@ tap phinze/homebrew-cask
 install brew-cask
 
 cask install alfred
+cask alfred link
+
+cask install cord
+cask install dropbox
+cask install firefox
+cask install gitx-rowanj
+cask install google-chrome
+cask install heroku-toolbelt
+cask install kindle
+cask install spotify
+cask install sublime-text-3
+cask install skype
+cask install textmate
+cask install things
+cask install virtualbox
+cask install vlc

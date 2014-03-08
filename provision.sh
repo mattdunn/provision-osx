@@ -22,4 +22,5 @@ brew bundle Caskfile
 
 echo "Manual things..."
 echo ""
+echo " - Install Tuxera NTFS http://www.tuxera.com/products/tuxera-ntfs-for-mac/"
 echo " - Create and upload a new ssh key for GitHub"
