@@ -12,7 +12,7 @@ cask install google-chrome
 cask install heroku-toolbelt
 cask install kindle
 cask install spotify
-cask install sublime-text-3
+cask install sublime-text
 cask install skype
 cask install textmate
 cask install things
