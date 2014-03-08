@@ -19,9 +19,7 @@ cleanup(){
 clone_repo(){
   mkdir -p $GIT_REPO_CLONE_LOCATION
   cd $GIT_REPO_CLONE_LOCATION
-  git init -q
-  git remote add origin $GIT_REPO_LOCATION
-  git fetch origin master:refs/remotes/origin/master -n
+  git clone $GIT_REPO_LOCATION .
 }
 
 if has 'brew'; then
