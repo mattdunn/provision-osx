@@ -16,5 +16,6 @@ cask install sublime-text
 cask install skype
 cask install textmate
 cask install things
+cask install todoist
 cask install virtualbox
 cask install vlc
