@@ -4,13 +4,13 @@ install brew-cask
 cask install alfred
 cask alfred link
 
-cask install cord
 cask install dropbox
 cask install firefox
 cask install gitx-rowanj
 cask install google-chrome
 cask install heroku-toolbelt
 cask install kindle
+cask install remote-desktop-connection
 cask install spotify
 cask install sublime-text
 cask install skype
