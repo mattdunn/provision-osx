@@ -5,3 +5,5 @@ install openssl
 install tmux
 install tree 
 install wget
+install chruby
+install ruby-install
