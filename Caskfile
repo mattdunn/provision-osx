@@ -17,5 +17,6 @@ cask install skype
 cask install textmate
 cask install things
 cask install todoist
+cask install truecrypt
 cask install virtualbox
 cask install vlc
