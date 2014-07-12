@@ -6,6 +6,7 @@ cask alfred link
 
 cask install dropbox
 cask install firefox
+cask install flash
 cask install gitx-rowanj
 cask install google-chrome
 cask install heroku-toolbelt
