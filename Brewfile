@@ -7,3 +7,5 @@ install tree
 install wget
 install chruby
 install ruby-install
+install docker
+install boot2docker
