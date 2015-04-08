@@ -1,6 +1,7 @@
 tap phinze/homebrew-cask
 install brew-cask
 
+cask install android-file-transfer
 cask install dropbox
 cask install firefox
 cask install flash
