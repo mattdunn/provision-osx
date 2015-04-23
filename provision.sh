@@ -24,7 +24,7 @@ echo "Installing pip"
 sudo easy_install pip
 
 echo "Installing pip packages"
-sudo pip install powerline-status
+pip install --user powerline-status
 
 echo "Manual things..."
 echo ""
