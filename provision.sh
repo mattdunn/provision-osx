@@ -20,6 +20,9 @@ brew bundle Brewfile
 echo "Installing Homebrew-Cask packages..."
 brew bundle Caskfile
 
+echo "Installing pip"
+sudo easy_install pip
+
 echo "Manual things..."
 echo ""
 echo " - Install Tuxera NTFS http://www.tuxera.com/products/tuxera-ntfs-for-mac/"
