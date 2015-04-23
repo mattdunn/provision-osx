@@ -23,6 +23,9 @@ brew bundle Caskfile
 echo "Installing pip"
 sudo easy_install pip
 
+echo "Installing pip packages"
+sudo pip install powerline-status
+
 echo "Manual things..."
 echo ""
 echo " - Install Tuxera NTFS http://www.tuxera.com/products/tuxera-ntfs-for-mac/"
