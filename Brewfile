@@ -9,4 +9,4 @@ install chruby
 install ruby-install
 install docker
 install boot2docker
-install fig
+install docker-compose
