@@ -10,3 +10,4 @@ install ruby-install
 install docker
 install boot2docker
 install docker-compose
+install reattach-to-user-namespace
