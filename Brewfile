@@ -8,6 +8,6 @@ install wget
 install chruby
 install ruby-install
 install docker
-install boot2docker
+install docker-machine
 install docker-compose
 install reattach-to-user-namespace
