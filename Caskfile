@@ -1,6 +1,3 @@
-tap phinze/homebrew-cask
-install brew-cask
-
 cask install android-file-transfer
 cask install betterzip
 cask install dropbox
