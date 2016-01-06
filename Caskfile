@@ -2,6 +2,7 @@ tap phinze/homebrew-cask
 install brew-cask
 
 cask install android-file-transfer
+cask install betterzip
 cask install dropbox
 cask install firefox
 cask install flash
@@ -9,13 +10,11 @@ cask install gitx-rowanj
 cask install google-chrome
 cask install heroku-toolbelt
 cask install kindle
-cask install limechat
 cask install remote-desktop-connection
 cask install spotify
 cask install sublime-text
 cask install skype
 cask install textmate
-cask install things
 cask install todoist
 cask install truecrypt
 cask install virtualbox
