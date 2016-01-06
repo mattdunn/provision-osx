@@ -2,7 +2,7 @@
 
 echo "Installing Homebrew..."
 echo ""
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Updating Homebrew..."
 echo ""
