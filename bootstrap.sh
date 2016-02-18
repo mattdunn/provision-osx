@@ -28,3 +28,4 @@ fi
 
 clone_repo
 ./provision.sh
+./configure-osx.sh
