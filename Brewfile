@@ -7,8 +7,5 @@ install tree
 install wget
 install chruby
 install ruby-install
-install docker
-install docker-machine
-install docker-compose
 install reattach-to-user-namespace
 install heroku
