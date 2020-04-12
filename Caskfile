@@ -5,15 +5,12 @@ cask install firefox
 cask install flash
 cask install gitx-rowanj
 cask install google-chrome
-cask install heroku-toolbelt
 cask install kindle
 cask install remote-desktop-connection
 cask install spotify
 cask install sublime-text
 cask install skype
-cask install textmate
 cask install todoist
-cask install truecrypt
 cask install virtualbox
 cask install visual-studio-code
 cask install vagrant
