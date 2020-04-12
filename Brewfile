@@ -9,3 +9,4 @@ install chruby
 install ruby-install
 install reattach-to-user-namespace
 install heroku
+install vim
