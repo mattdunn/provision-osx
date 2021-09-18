@@ -1,17 +1,12 @@
 cask install android-file-transfer
 cask install betterzip
-cask install dropbox
-cask install firefox
-cask install flash
 cask install gitx-rowanj
 cask install google-chrome
 cask install kindle
 cask install remote-desktop-connection
 cask install spotify
-cask install sublime-text
 cask install skype
 cask install todoist
 cask install virtualbox
 cask install visual-studio-code
-cask install vagrant
 cask install vlc
