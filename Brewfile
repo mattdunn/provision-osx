@@ -9,3 +9,5 @@ install chruby
 install ruby-install
 install reattach-to-user-namespace
 install vim
+install cheat
+install bat
